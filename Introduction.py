@@ -30,7 +30,7 @@ def run():
         st.sidebar.markdown("[Work with google colab](https://colab.research.google.com)")
         st.sidebar.markdown("[Get Python](https://www.python.org/downloads/)")
         st.sidebar.markdown("[Install pip](https://pip.pypa.io/en/stable/installation/)")
-
+        st.sidebar.markdown("[LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)")
 
         # Example ChatBot
         st.markdown("### Simple Chatbot Example")
