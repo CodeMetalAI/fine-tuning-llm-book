@@ -63,7 +63,7 @@ def run():
             if msg["role"] == "assistant":
               st.chat_message(msg["role"]).write(msg["content"])
 
-        if prompt := st.chat_input(placeholder="Tell me a joke about sharks"):
+        if prompt := st.chat_input(placeholder="Write a query for the llm to respond to."):
             messages.append({"role": "user", "content": prompt})
             st.chat_message("user").write(prompt)
 
