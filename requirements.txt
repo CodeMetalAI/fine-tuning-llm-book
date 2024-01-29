@@ -1,3 +1,5 @@
-altair
-pandas
 streamlit
+trubrics
+openai
+streamlit_feedback
+streamlit_extras
