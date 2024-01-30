@@ -14,11 +14,48 @@ def run():
         st.markdown(
         """
         This is the companion site to Fine-tuning Large Language Models. You'll be able to review material, study expanded examples, and use code-snippets to quickly get started. Relevant material is provided for each chapter. 
+        
+        ![image](https://menlovc.com/wp-content/uploads/2024/01/llm_genai_illustration.jpg)
         """
         )
 
     def chapter1():
         st.markdown("# Chapter 1")
+        st.markdown("""
+## Courses Related to LLMs
+
+1. **Stanford CS324: Large Language Models**  
+   - [Course Link](https://stanford-cs324.github.io)  
+   - This course aligns with the historical and theoretical aspects of LLMs, offering in-depth exploration including ethical implications.
+
+2. **Full Stack LLM Bootcamp**  
+   - [Course Link](https://fullstackdeeplearning.com)  
+   - Covers practical applications of LLMs like prompt engineering and deployment strategies.
+
+3. **Fine Tuning Large Language Models on Coursera**  
+   - [Course Link](https://www.deeplearning.ai)  
+   - Complements the section on fine-tuning LLMs for specific tasks.
+
+## Articles and Books
+
+1. **"What Is ChatGPT Doing … and Why Does It Work?" by Steven Wolfram**  
+   - [Read More](https://writings.stephenwolfram.com)  
+   - Offers an in-depth look at the workings of ChatGPT.
+
+2. **Article Series on Large Language Models by Jay Alammar**  
+   - [Read More](https://jalammar.github.io)  
+   - Detailed explanations and visualizations of LLMs and transformers.
+
+## GitHub Repositories
+
+1. **Awesome-LLM**  
+   - [Repository Link](https://github.com/Awesome-LLM)  
+   - A curated collection of resources on LLMs, including ChatGPT.
+
+2. **LLMSurvey**  
+   - [Repository Link](https://github.com/LLMSurvey)  
+   - Comprehensive overview of LLMs, survey papers, and resources.
+                    """)
 
     def chapter2():
         st.markdown("# Chapter 2")
